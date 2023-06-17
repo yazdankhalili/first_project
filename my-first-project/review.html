@@ -12,23 +12,26 @@
 
 <body>
   <div class="site-container">
-    <header>
+    <header class="top-header">
       <div class="head-container">
-        <div class="logo-picture">
-          <svg class="icon-svg">
-            <use href="../pic/symbol-defs.svg#icon-icq"></use>
-          </svg>
+        <div class="head-maxwidth">
+          <div class="logo-picture">
+            <svg class="icon-svg">
+              <use href="../pic/symbol-defs.svg#icon-icq"></use>
+            </svg>
+          </div>
+          <div class="logo-text-container">
+            <div class="logo-text">آموزش و طراحی میکروکنترلر</div>
+            <p class="logo-information">آموزش تخصصی میکروکنترلر ARM</p>
+          </div>
+          <form class="search-form" action="">
+            <label for="search_label"></label>
+            <input class="search-form__search-box" id="search_label" type="search" placeholder="مثال: میکروکنترلر" />
+            <input class="search-form__submit" type="submit" value="جستجو" />
+          </form>
+          <a class="search-bottom" href=""></a>
         </div>
-        <div class="logo-text-container">
-          <div class="logo-text">آموزش و طراحی میکروکنترلر</div>
-          <p class="logo-information">آموزش تخصصی میکروکنترلر ARM</p>
-        </div>
-        <form class="search-form" action="">
-          <label for="search_label"></label>
-          <input class="search-form__search-box" id="search_label" type="search" placeholder="مثال: میکروکنترلر" />
-          <input class="search-form__submit" type="submit" value="جستجو" />
-        </form>
-        <a class="search-bottom" href=""></a>
+
       </div>
       <div class="nav-row-container">
         <div class="nav-container">
@@ -163,6 +166,36 @@
                 </a>
               </span>
             </header>
+            <div class="entry-content">
+              <p class="post-text">&nbsp;&nbsp;
+                در این فصل به صورت کامل با میکروکنترلر ها آشنا می شوید
+              </p>
+              <p class="post-text">&nbsp;&nbsp;&nbsp;در یک سیستم پردازنده حداقل اجزایی که وجود دارد شامل (CPU (central
+                prossesing unit
+                می‌شود، در واقع این پرازنده شبیه مغز انسان عمل می‌کند مغزی که هیچ گونه اجزای جانبی برای مثال دست و پا
+                ندارد و فقط محاسبات در درون آن انجام می‌شود. برای ارتباط با دنیای بیرون باید اجزای جانبی دیگری نیز وجود
+                داشته باشد، از جمله پالس ساعت یا clock که از حداقل اجزایی که است که CPU باید تحت فرماندهی آن قرار بگیرد.
+                یعنی پالس ساعت به CPU فرمان می‌دهد و اعمال CPU هماهنگ با پالس ساعت انجام می­‌شود. طبیعتاً هر آنچه پالس
+                ساعت بالاتر باشد مقدار اعمال انجام شده توسط CPU در واحد زمان بیشتر است، اما این همه‌ی مسئله نیست ممکن
+                است
+                میکروکنترلری با کلاک 1MHZ بتواند عملیاتی را انجام دهد که یک میکروکنترلر با کلاک 5MHZ نتواند همان عملیات
+                را
+                در یک زمان ثابت انجام دهد. در ادامه به بررسی این عوامل می‌پردازیم.</p>
+              <p class="post-text">&nbsp;&nbsp;&nbsp;
+                در نتیجه برنامه‌­ای که توسط برنامه‌نویس توسط هر زبانی نوشته می‌­شود، توسط پروگرامر بر روی حافظه­ FLASH
+                میکروکنترلر، پروگرام می‌شود و نتیجه عملیات موقت در حین اجرای برنامه در SRAM ذخیره می­شود. دیتاهایی که
+                توسط
+                برنامه تولید می­‌شود و می‌خواهیم که یکبار ذخیره شود و با قطع برق پاک نشود در EEPROM ذخیره می‌­شود که این
+                کار توسط CPU انجام می­‌شود. همه­ این عملیات بر این است که بتوان ارتباط بین دنیای بیرون و CPU را ایجاد
+                کرد.
+              </p>
+              <a class="post-link" href="#">کار با SPI</a>
+              <a class="post-link" href="#">کار با UART</a>
+              <a class="post-link" href="#">کار با CAN</a>
+              <a class="post-link" href="#">کار با LIN</a>
+              <a class="post-link" href="#">کار با clock</a>
+            </div>
+
           </article>
           <div class="sharing-buttons">
             <div id="modal" class="share-modal share-modal--close">
