@@ -1,383 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css-reset/mcleod-reset.css" />
-    <link rel="stylesheet" href="review.css" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <div class="site-container">
-      <header>
-        <div class="head-container">
-          <div class="logo-picture">
-            <svg class="icon-svg">
-              <use href="../pic/symbol-defs.svg#icon-icq"></use>
-            </svg>
-          </div>
-          <div class="logo-text-container">
-            <div class="logo-text">آموزش و طراحی میکروکنترلر</div>
-            <p class="logo-information">آموزش تخصصی میکروکنترلر ARM</p>
-          </div>
-          <form class="search-form" action="">
-            <label for="search_label"></label>
-            <input
-              class="search-form__search-box"
-              id="search_label"
-              type="search"
-              placeholder="مثال: میکروکنترلر"
-            />
-            <input class="search-form__submit" type="submit" value="جستجو" />
-          </form>
-          <a class="search-bottom" href=""></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css-reset/mcleod-reset.css" />
+  <link rel="stylesheet" href="review.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="site-container">
+    <header>
+      <div class="head-container">
+        <div class="logo-picture">
+          <svg class="icon-svg">
+            <use href="../pic/symbol-defs.svg#icon-icq"></use>
+          </svg>
         </div>
-        <div class="nav-row-container">
-          <div class="nav-container">
-            <nav class="head-nav">
-              <ul class="head-ul">
-                <li class="nav-home nav-home-1">
-                  <div class="yazdan">
-                    <a href="#">
-                      <svg class="nav-svg">
-                        <use href="../pic/symbol-defs.svg#icon-home2"></use>
-                      </svg>
-                      <span>صفحه اصلی</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="nav-home">
-                  <div class="yazdan">
-                    <a href="#">
-                      <svg class="nav-svg">
-                        <use href="../pic/symbol-defs.svg#icon-tv"></use>
-                      </svg>
-                      <span>دوره </span>
-                    </a>
-                  </div>
-                </li>
-                <li class="nav-home sub-nav-for-hover sub-nav-for-hover_after">
-                  <div class="yazdan">
-                    <a href="#" class="sub-nav-for-hover__a">
-                      <svg class="nav-svg">
-                        <use href="../pic/symbol-defs.svg#icon-list"></use>
-                      </svg>
-                      <span>لیست </span>
-                      <ul class="sub-nav">
-                        <li>
-                          <svg class="nav-svg">
-                            <use
-                              href="../pic/symbol-defs.svg#icon-themighty"
-                            ></use>
-                          </svg>
-                          <span>STM32 </span>
-                        </li>
-                        <li>
-                          <svg class="nav-svg">
-                            <use
-                              href="../pic/symbol-defs.svg#icon-svelte"
-                            ></use>
-                          </svg>
-                          <span> SPC56 </span>
-                        </li>
-                      </ul>
-                    </a>
-                  </div>
-                </li>
-                <li class="nav-home">
-                  <div class="yazdan">
-                    <a href="#">
-                      <svg class="nav-svg">
-                        <use href="../pic/symbol-defs.svg#icon-book"></use>
-                      </svg>
-                      <span>مرجع </span>
-                    </a>
-                  </div>
-                </li>
-
-                <li class="nav-home nav-home-new">
-                  <div class="yazdan new">
-                    <a href="#">
-                      <svg class="nav-svg">
-                        <use href="../pic/symbol-defs.svg#icon-wrench"></use>
-                      </svg>
-                      <span>ابزار </span>
-                    </a>
-                  </div>
-                </li>
-                <li class="nav-home">
-                  <div class="yazdan">
-                    <a href="#">
-                      <svg class="nav-svg">
-                        <use href="../pic/symbol-defs.svg#icon-paste"></use>
-                      </svg>
-                      <span> دمو</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="nav-home">
-                  <div class="yazdan">
-                    <a href="#">
-                      <svg class="nav-svg">
-                        <use href="../pic/symbol-defs.svg#icon-quill"></use>
-                      </svg>
-                      <span>ترفند </span>
-                    </a>
-                  </div>
-                </li>
-                <li class="nav-home">
-                  <div class="yazdan">
-                    <a href="#">
-                      <svg class="nav-svg">
-                        <use href="../pic/symbol-defs.svg#icon-location2"></use>
-                      </svg>
-                      <span>درباره ما </span>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </nav>
-          </div>
+        <div class="logo-text-container">
+          <div class="logo-text">آموزش و طراحی میکروکنترلر</div>
+          <p class="logo-information">آموزش تخصصی میکروکنترلر ARM</p>
         </div>
-      </header>
-
-      <div class="content-container">
-        <div class="main-container">
-          <main>
-            <div class="post">
-              <figure>
-                <img
-                  class="image"
-                  src="../pic/st.jpg"
-                  alt="microcontroller"
-                  sizes=""
-                  srcset=""
-                />
-              </figure>
-            </div>
-            <article class="main-information">
-              <header class="main-header">
-                <div class="entry-toplevel">
-                  <span class="post-time">
-                    <time class="entry-date" datetime="1402/03/23 12:22:46"
-                      >23 خرداد 1402</time
-                    >
-                  </span>
-                  <a href="">
-                    <svg class="entry-svg">
-                      <use href="../pic/symbol-defs.svg#icon-share"></use>
+        <form class="search-form" action="">
+          <label for="search_label"></label>
+          <input class="search-form__search-box" id="search_label" type="search" placeholder="مثال: میکروکنترلر" />
+          <input class="search-form__submit" type="submit" value="جستجو" />
+        </form>
+        <a class="search-bottom" href=""></a>
+      </div>
+      <div class="nav-row-container">
+        <div class="nav-container">
+          <nav class="head-nav">
+            <ul class="head-ul">
+              <li class="nav-home nav-home-1">
+                <div class="yazdan">
+                  <a href="#">
+                    <svg class="nav-svg">
+                      <use href="../pic/symbol-defs.svg#icon-home2"></use>
                     </svg>
+                    <span>صفحه اصلی</span>
                   </a>
                 </div>
-                <h1 class="entry-title">خانواده میکروکنترلرها</h1>
-                <span class="author">
-                  <a href="#" class="url">
-                    <img
-                      class="url__picture"
-                      width="40"
-                      height="40"
-                      src="../pic/yazdan.jpg"
-                      alt=""
-                    />
-                    <span class="url__name">یزدان جانی خلیلی</span>
+              </li>
+              <li class="nav-home">
+                <div class="yazdan">
+                  <a href="#">
+                    <svg class="nav-svg">
+                      <use href="../pic/symbol-defs.svg#icon-tv"></use>
+                    </svg>
+                    <span>دوره </span>
                   </a>
-                </span>
-              </header>
-            </article>
-            <div class="sharing-buttons">
-              <div class="share-modal share-modal--close"></div>
-            </div>
-          </main>
-        </div>
-        <div class="aside-container">
-          <aside class="aside-content">
-            <section class="wiget wiget-">
-              <a class="sidelink sidelink--writing" href="#">
-                <span class="sidelink__writing">نویسنده شو</span>
-                <svg class="sidelink__img sidelink__img--writing">
-                  <use href="../pic/symbol-defs.svg#icon-pencil"></use>
-                </svg>
-              </a>
-            </section>
-            <section class="wiget wiget-">
-              <a class="sidelink sidelink--traning" href="#">
-                <span class="sidelink__traning"> دوره آموزشی</span>
-                <svg class="sidelink__img sidelink__img--traning">
-                  <use href="../pic/symbol-defs.svg#icon-dropbox"></use>
-                </svg>
-              </a>
-            </section>
-            <section class="wiget wiget-">
-              <a class="sidelink sidelink--quistion" href="#">
-                <span class="sidelink__quistion"> پرسش و پاسخ </span>
-                <svg class="sidelink__img sidelink__img--quistion">
-                  <use href="../pic/symbol-defs.svg#icon-question"></use>
-                </svg>
-              </a>
-            </section>
-            <section class="wiget wiget-">
-              <a class="sidelink sidelink--link" href="#">
-                <span class="sidelink__link" dir="ltr"> YazdanKhalili@ </span>
-                <svg class="sidelink__img sidelink__img--link">
-                  <use href="../pic/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </section>
-            <section class="wiget">
-              <div class="hot-posts">
-                <ul class="hot-posts__menu">
-                  <li>
-                    <a href="" class="hot-posts__link">
-                      <svg class="icon icon-fire">
-                        <use
-                          href="../pic/symbol-defs.svg#icon-local_fire_department"
-                        ></use>
-                      </svg>
-                      <span>آموزش قدم به قدم میکروکنترلرها</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class="hot-posts__link">
-                      <svg class="icon icon-fire">
-                        <use
-                          href="../pic/symbol-defs.svg#icon-local_fire_department"
-                        ></use>
-                      </svg>
-                      <span>کد نویسی به روش ماژولار </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class="hot-posts__link">
-                      <svg class="icon icon-fire">
-                        <use
-                          href="../pic/symbol-defs.svg#icon-local_fire_department"
-                        ></use>
-                      </svg>
-                      <span>راه اندازی SPI و Uart</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class="hot-posts__link">
-                      <svg class="icon icon-fire">
-                        <use
-                          href="../pic/symbol-defs.svg#icon-local_fire_department"
-                        ></use>
-                      </svg>
-                      <span>نصب کتابخانه های استاندارد ST</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class="hot-posts__link">
-                      <svg class="icon icon-fire">
-                        <use
-                          href="../pic/symbol-defs.svg#icon-local_fire_department"
-                        ></use>
-                      </svg>
-                      <span>نحوه نوشتن فانکشن ها در برنامه</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class="hot-posts__link">
-                      <svg class="icon icon-fire">
-                        <use
-                          href="../pic/symbol-defs.svg#icon-local_fire_department"
-                        ></use>
-                      </svg>
-                      <span>کلاس ها در برنامه نویسی</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class="hot-posts__link">
-                      <svg class="icon icon-fire">
-                        <use
-                          href="../pic/symbol-defs.svg#icon-local_fire_department"
-                        ></use>
-                      </svg>
-                      <span>متد ها و اتربیوت ها</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <section class="wiget">
-              <div class="recent-comment">
-                <ul class="rc__list">
-                  <li class="rc__items">
-                    <a href="#" class="rc__link">
-                      <div class="rc__author">
-                        <svg class="rc__avatar">
-                          <use
-                            href="../pic/symbol-defs.svg#icon-user-tie"
-                          ></use>
+                </div>
+              </li>
+              <li class="nav-home sub-nav-for-hover sub-nav-for-hover_after">
+                <div class="yazdan">
+                  <a href="#" class="sub-nav-for-hover__a">
+                    <svg class="nav-svg">
+                      <use href="../pic/symbol-defs.svg#icon-list"></use>
+                    </svg>
+                    <span>لیست </span>
+                    <ul class="sub-nav">
+                      <li>
+                        <svg class="nav-svg">
+                          <use href="../pic/symbol-defs.svg#icon-themighty"></use>
                         </svg>
-                        <span class="rc__user">Ali</span>
-                      </div>
-                      <span class="rc_post">SPI Drive</span>
-                      <p class="rc__comment">
-                        از سایت شما بسیار استفاده کردم. عششششق منی مهندس یزدان
-                        گل گلاب
-                      </p>
-                    </a>
-                  </li>
-                  <li class="rc__items">
-                    <a href="#" class="rc__link">
-                      <div class="rc__author">
-                        <svg class="rc__avatar">
-                          <use
-                            href="../pic/symbol-defs.svg#icon-user-tie"
-                          ></use>
+                        <span>STM32 </span>
+                      </li>
+                      <li>
+                        <svg class="nav-svg">
+                          <use href="../pic/symbol-defs.svg#icon-svelte"></use>
                         </svg>
-                        <span class="rc__user">Maryam</span>
-                      </div>
-                      <span class="rc_post">update software</span>
-                      <p class="rc__comment">
-                        درود بر شما. خیلی خوب بود همه دوره ها رو خریدم. مهندس
-                        میتونید دوره های بیشتری بذارید واسمون؟؟؟
-                      </p>
-                    </a>
-                  </li>
-                  <li class="rc__items">
-                    <a href="#" class="rc__link">
-                      <div class="rc__author">
-                        <svg class="rc__avatar">
-                          <use
-                            href="../pic/symbol-defs.svg#icon-user-tie"
-                          ></use>
-                        </svg>
-                        <span class="rc__user">Mohammad</span>
-                      </div>
-                      <span class="rc_post">USART</span>
-                      <p class="rc__comment">
-                        میخوام بگم یکی از بهتریت دوره هایی بود که من توی عمرم
-                        خوندم. بسیار بسیار کاربردی بود
-                      </p>
-                    </a>
-                  </li>
-                  <li class="rc__items">
-                    <a href="#" class="rc__link">
-                      <div class="rc__author">
-                        <svg class="rc__avatar">
-                          <use
-                            href="../pic/symbol-defs.svg#icon-user-tie"
-                          ></use>
-                        </svg>
-                        <span class="rc__user">Mohadese</span>
-                      </div>
-                      <span class="rc_post">CAN and LIN</span>
-                      <p class="rc__comment">
-                        سلام و وقت بخیر . با تشکر از سایت خوب شما
-                      </p>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </section>
-          </aside>
+                        <span> SPC56 </span>
+                      </li>
+                    </ul>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-home">
+                <div class="yazdan">
+                  <a href="#">
+                    <svg class="nav-svg">
+                      <use href="../pic/symbol-defs.svg#icon-book"></use>
+                    </svg>
+                    <span>مرجع </span>
+                  </a>
+                </div>
+              </li>
+
+              <li class="nav-home nav-home-new">
+                <div class="yazdan new">
+                  <a href="#">
+                    <svg class="nav-svg">
+                      <use href="../pic/symbol-defs.svg#icon-wrench"></use>
+                    </svg>
+                    <span>ابزار </span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-home">
+                <div class="yazdan">
+                  <a href="#">
+                    <svg class="nav-svg">
+                      <use href="../pic/symbol-defs.svg#icon-paste"></use>
+                    </svg>
+                    <span> دمو</span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-home">
+                <div class="yazdan">
+                  <a href="#">
+                    <svg class="nav-svg">
+                      <use href="../pic/symbol-defs.svg#icon-quill"></use>
+                    </svg>
+                    <span>ترفند </span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-home">
+                <div class="yazdan">
+                  <a href="#">
+                    <svg class="nav-svg">
+                      <use href="../pic/symbol-defs.svg#icon-location2"></use>
+                    </svg>
+                    <span>درباره ما </span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
+    </header>
+
+    <div class="content-container">
+      <div class="main-container">
+        <main>
+          <div class="post">
+            <figure>
+              <img class="image" src="../pic/st.jpg" alt="microcontroller" sizes="" srcset="" />
+            </figure>
+          </div>
+          <article class="main-information">
+            <header class="main-header">
+              <div class="entry-toplevel">
+                <span class="post-time">
+                  <time class="entry-date" datetime="1402/03/23 12:22:46">23 خرداد 1402</time>
+                </span>
+                <a href="#modal">
+                  <svg class="entry-svg">
+                    <use href="../pic/symbol-defs.svg#icon-share"></use>
+                  </svg>
+                </a>
+              </div>
+              <h1 class="entry-title">خانواده میکروکنترلرها</h1>
+              <span class="author">
+                <a href="#" class="url">
+                  <img class="url__picture" width="40" height="40" src="../pic/yazdan.jpg" alt="" />
+                  <span class="url__name">یزدان جانی خلیلی</span>
+                </a>
+              </span>
+            </header>
+          </article>
+          <div class="sharing-buttons">
+            <div id="modal" class="share-modal share-modal--close">
+              <div class="share-modal__window">
+                <a id="modal__close" class="modal__close-window" href="#modal__close">
+                  <svg class="modal__svg-close">
+                    <use href="../pic/symbol-defs.svg#icon-cancel-circle"></use>
+                  </svg>
+                </a>
+
+                <div class="modal__share">
+                  <span class="modal__publish">انتشار این مطلب</span>
+                  <svg class="modal__svg-share">
+                    <use href="../pic/symbol-defs.svg#icon-share"></use>
+                  </svg>
+
+                </div>
+                <span class="modal__title">درایو SPI</span>
+                <ul class="modal__social-network">
+                  <li class="modal__social-list">
+                    <a href="#">
+                      <svg class="modal__social-svg">
+                        <use href="../pic/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+
+                  </li>
+                  <li class="modal__social-list">
+                    <a href="#">
+                      <svg class="modal__social-svg">
+                        <use href="../pic/symbol-defs.svg#icon-linkedincolor"></use>
+                      </svg>
+                    </a>
+
+                  </li>
+                  <li class="modal__social-list">
+                    <a href="#">
+                      <svg class="modal__social-svg">
+                        <use href="../pic/symbol-defs.svg#icon-whatsapp"></use>
+                      </svg>
+                    </a>
+
+                  </li>
+                  <li class="modal__social-list">
+                    <a href="#">
+                      <svg class="modal__social-svg">
+                        <use href="../pic/symbol-defs.svg#icon-telegram"></use>
+                      </svg>
+                    </a>
+
+                  </li>
+                </ul>
+                <span class="modal__addr">آدرس کوتاه شده این قسمت:</span>
+                <input class="modal__input" type="text" name="" id="" readonly value="https://css-tricks.ir/?p=5816">
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="aside-container">
+        <aside class="aside-content">
+          <section class="wiget wiget-">
+            <a class="sidelink sidelink--writing" href="#">
+              <span class="sidelink__writing">نویسنده شو</span>
+              <svg class="sidelink__img sidelink__img--writing">
+                <use href="../pic/symbol-defs.svg#icon-pencil"></use>
+              </svg>
+            </a>
+          </section>
+          <section class="wiget wiget-">
+            <a class="sidelink sidelink--traning" href="#">
+              <span class="sidelink__traning"> دوره آموزشی</span>
+              <svg class="sidelink__img sidelink__img--traning">
+                <use href="../pic/symbol-defs.svg#icon-dropbox"></use>
+              </svg>
+            </a>
+          </section>
+          <section class="wiget wiget-">
+            <a class="sidelink sidelink--quistion" href="#">
+              <span class="sidelink__quistion"> پرسش و پاسخ </span>
+              <svg class="sidelink__img sidelink__img--quistion">
+                <use href="../pic/symbol-defs.svg#icon-question"></use>
+              </svg>
+            </a>
+          </section>
+          <section class="wiget wiget-">
+            <a class="sidelink sidelink--link" href="#">
+              <span class="sidelink__link" dir="ltr"> YazdanKhalili@ </span>
+              <svg class="sidelink__img sidelink__img--link">
+                <use href="../pic/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </section>
+          <section class="wiget">
+            <div class="hot-posts">
+              <ul class="hot-posts__menu">
+                <li>
+                  <a href="" class="hot-posts__link">
+                    <svg class="icon icon-fire">
+                      <use href="../pic/symbol-defs.svg#icon-local_fire_department"></use>
+                    </svg>
+                    <span>آموزش قدم به قدم میکروکنترلرها</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="hot-posts__link">
+                    <svg class="icon icon-fire">
+                      <use href="../pic/symbol-defs.svg#icon-local_fire_department"></use>
+                    </svg>
+                    <span>کد نویسی به روش ماژولار </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="hot-posts__link">
+                    <svg class="icon icon-fire">
+                      <use href="../pic/symbol-defs.svg#icon-local_fire_department"></use>
+                    </svg>
+                    <span>راه اندازی SPI و Uart</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="hot-posts__link">
+                    <svg class="icon icon-fire">
+                      <use href="../pic/symbol-defs.svg#icon-local_fire_department"></use>
+                    </svg>
+                    <span>نصب کتابخانه های استاندارد ST</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="hot-posts__link">
+                    <svg class="icon icon-fire">
+                      <use href="../pic/symbol-defs.svg#icon-local_fire_department"></use>
+                    </svg>
+                    <span>نحوه نوشتن فانکشن ها در برنامه</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="hot-posts__link">
+                    <svg class="icon icon-fire">
+                      <use href="../pic/symbol-defs.svg#icon-local_fire_department"></use>
+                    </svg>
+                    <span>کلاس ها در برنامه نویسی</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="hot-posts__link">
+                    <svg class="icon icon-fire">
+                      <use href="../pic/symbol-defs.svg#icon-local_fire_department"></use>
+                    </svg>
+                    <span>متد ها و اتربیوت ها</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="wiget">
+            <div class="recent-comment">
+              <ul class="rc__list">
+                <li class="rc__items">
+                  <a href="#" class="rc__link">
+                    <div class="rc__author">
+                      <svg class="rc__avatar">
+                        <use href="../pic/symbol-defs.svg#icon-user-tie"></use>
+                      </svg>
+                      <span class="rc__user">Ali</span>
+                    </div>
+                    <span class="rc_post">SPI Drive</span>
+                    <p class="rc__comment">
+                      از سایت شما بسیار استفاده کردم. عششششق منی مهندس یزدان
+                      گل گلاب
+                    </p>
+                  </a>
+                </li>
+                <li class="rc__items">
+                  <a href="#" class="rc__link">
+                    <div class="rc__author">
+                      <svg class="rc__avatar">
+                        <use href="../pic/symbol-defs.svg#icon-user-tie"></use>
+                      </svg>
+                      <span class="rc__user">Maryam</span>
+                    </div>
+                    <span class="rc_post">update software</span>
+                    <p class="rc__comment">
+                      درود بر شما. خیلی خوب بود همه دوره ها رو خریدم. مهندس
+                      میتونید دوره های بیشتری بذارید واسمون؟؟؟
+                    </p>
+                  </a>
+                </li>
+                <li class="rc__items">
+                  <a href="#" class="rc__link">
+                    <div class="rc__author">
+                      <svg class="rc__avatar">
+                        <use href="../pic/symbol-defs.svg#icon-user-tie"></use>
+                      </svg>
+                      <span class="rc__user">Mohammad</span>
+                    </div>
+                    <span class="rc_post">USART</span>
+                    <p class="rc__comment">
+                      میخوام بگم یکی از بهتریت دوره هایی بود که من توی عمرم
+                      خوندم. بسیار بسیار کاربردی بود
+                    </p>
+                  </a>
+                </li>
+                <li class="rc__items">
+                  <a href="#" class="rc__link">
+                    <div class="rc__author">
+                      <svg class="rc__avatar">
+                        <use href="../pic/symbol-defs.svg#icon-user-tie"></use>
+                      </svg>
+                      <span class="rc__user">Mohadese</span>
+                    </div>
+                    <span class="rc_post">CAN and LIN</span>
+                    <p class="rc__comment">
+                      سلام و وقت بخیر . با تشکر از سایت خوب شما
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </aside>
+      </div>
     </div>
-    <footer></footer>
-  </body>
+  </div>
+  <footer></footer>
+</body>
+
 </html>
