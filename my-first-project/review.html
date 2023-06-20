@@ -7,7 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css-reset/mcleod-reset.css" />
   <link rel="stylesheet" href="review.css" />
-  <title>Document</title>
+
+  <title>آموزش میکروکنترلر</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon_package_v0.16/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="../favicon_package_v0.16/site.webmanifest">
+  <link rel="mask-icon" href="../favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -194,27 +203,69 @@
               <a class="post-link" href="#">کار با CAN</a>
               <a class="post-link" href="#">کار با LIN</a>
               <a class="post-link" href="#">کار با clock</a>
+              <div class="yarpp-related">
+                <section class="list-section">
+                  <h3 class="list-section__heading">مطالب مرتبط</h3>
+                  <ul class="list-section__list">
+                    <li class="list-section__item">
+                      <a href="#" title="میکرو avr">آموزش عمومی میکروکنترلر AVR</a>
+                    </li>
+                    <li class="list-section__item">
+                      <a href="#" title="میکرو avr">میکروکنترلر SPC56</a>
+                    </li>
+                    <li class="list-section__item">
+                      <a href="#" title="میکرو avr">راه اندازی TFT LCD با میکروکنترلر </a>
+                    </li>
+                    <li class="list-section__item">
+                      <a href="#" title="میکرو avr">سری جدید میکروکنترلر ARM</a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+              <footer class="entry-footer">
+                <div class="quick-menu">
+                  <ul class="quick-menu__list">
+                    <a href="#quick-menu__svg" class="quick-menu__item">
+                      <svg id="quick-menu__svg" class="quick-menu__svg">
+                        <use href="../pic/symbol-defs.svg#icon-share"></use>
+                      </svg>
+                    </a>
+                    <div class="quick-menu__item">
+                      <div class="quick-menu__like">
+                        <svg id="quick-menu__svg" class="quick-menu__svg" viewBox="0 0 32 32">
+                          <path
+                            d="M23.6 2c-3.363 0-6.258 2.736-7.599 5.594-1.342-2.858-4.237-5.594-7.601-5.594-4.637 0-8.4 3.764-8.4 8.401 0 9.433 9.516 11.906 16.001 21.232 6.13-9.268 15.999-12.1 15.999-21.232 0-4.637-3.763-8.401-8.4-8.401z">
+                          </path>
+
+                        </svg>
+                        <span class="quick-menu__number">25</span>
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+              </footer>
+
             </div>
 
           </article>
           <div class="sharing-buttons">
             <div id="modal" class="share-modal share-modal--close">
               <div class="share-modal__window">
-                <a id="modal__close" class="modal__close-window" href="#modal__close">
+                <a id="modal__close" class="modal__close-window modal-child-margin" href="#modal__close">
                   <svg class="modal__svg-close">
                     <use href="../pic/symbol-defs.svg#icon-cancel-circle"></use>
                   </svg>
                 </a>
 
-                <div class="modal__share">
+                <div class="modal__share modal-child-margin">
                   <span class="modal__publish">انتشار این مطلب</span>
                   <svg class="modal__svg-share">
                     <use href="../pic/symbol-defs.svg#icon-share"></use>
                   </svg>
 
                 </div>
-                <span class="modal__title">درایو SPI</span>
-                <ul class="modal__social-network">
+                <span class="modal__title modal-child-margin">درایو SPI</span>
+                <ul class="modal__social-network modal-child-margin">
                   <li class="modal__social-list">
                     <a href="#">
                       <svg class="modal__social-svg">
@@ -248,10 +299,52 @@
 
                   </li>
                 </ul>
-                <span class="modal__addr">آدرس کوتاه شده این قسمت:</span>
-                <input class="modal__input" type="text" name="" id="" readonly value="https://css-tricks.ir/?p=5816">
+                <span class="modal__addr modal-child-margin">آدرس کوتاه شده این قسمت:</span>
+                <input class="modal__input modal-child-margin" type="text" name="" id="" readonly
+                  value="https://css-tricks.ir/?p=5816">
               </div>
             </div>
+          </div>
+          <section class="discuss-box">
+            <div class="discuss-box__icon">
+              <img src="../pic/discuss-icon1.svg" alt="">
+            </div>
+            <p class="discuss-box__text">
+              سوال داری برو به
+              <a href="#" class="discuss">
+                <span class="discuss__text">پنل پرسش و پاسخ</span>
+                <svg class="discuss__svg">
+                  <use href="../pic/symbol-defs.svg#icon-question"></use>
+                </svg>
+              </a>
+            </p>
+            <div class="discuss-box__icon2">
+              <img src="../pic/discuss-icon2.svg" alt="">
+            </div>
+          </section>
+          <div class="comment-respond">
+            <form action="" method="post" class="comment-form">
+              <p class="form-pargraf comment-notes">
+                <label for="comment" class="screen-reader-text">متن دیدگاه شما</label>
+                <textarea name="" id="comment"
+                  placeholder="دیدگاه خود را بنویسید اگر سوالی دارید در پنل پرسش و پاسخ بنویسید" cols="45"
+                  rows="8"></textarea>
+              </p>
+              <p class="form-pargraf comment-form-author">
+                <label for="author-label" class="screen-reader-text">نام شما</label>
+                <input type="text" name="author" placeholder="نام" id="author-label" value="" size="30">
+              </p>
+              <p class="form-pargraf comment-form-email">
+                <label for="author-email" class="screen-reader-text">ایمیل شما</label>
+                <input type="email" name="email" placeholder="ایمیل" id="author-email" value="" size="50">
+              </p>
+              <p class="form-pargraf submit-container">
+                <input type="submit" class="submit_comment" value=" ارسال ">
+              </p>
+
+
+
+            </form>
           </div>
         </main>
       </div>
@@ -420,7 +513,83 @@
       </div>
     </div>
   </div>
-  <footer></footer>
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <div class="site-footer__row-container">
+        <div class="site-footer__content">
+          <section class="site-footer__section">
+            <h3>
+              <همراه با ما>
+            </h3>
+
+            <div class="site-footer__share">
+              <ul class="site-footer__social-link">
+                <li class="site-footer__item">
+                  <a href="#">
+                    <svg class="">
+                      <use href="../pic/symbol-defs.svg#icon-telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="site-footer__item">
+                  <a href="#">
+                    <svg class="">
+                      <use href="../pic/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="site-footer__item">
+                  <a href="#">
+                    <svg class="">
+                      <use href="../pic/symbol-defs.svg#icon-whatsapp"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h3>
+              < همراه با ما />
+            </h3>
+          </section>
+          <section class="site-footer__section">
+            <h3>
+              < خبر نامه>
+            </h3>
+
+            <div class="site-footer__submit">
+              <form dir="ltr" action="" method="post">
+                <div class="site-footer__form-element-container" dir="ltr">
+                  <button class="site-footer__button" type="submit">ثبت نام</button>
+                  <input class="site-footer__email" type="email" name="" required id="" placeholder="نشانی ایمیل">
+                </div>
+              </form>
+            </div>
+            <h3>
+              < خبر نامه />
+            </h3>
+          </section>
+          <section class="site-footer__section">
+            <h3>
+              <نوشتن مقاله>
+            </h3>
+            <p class="site-footer__article">
+              صفحه
+              <a href="">انتشار مقاله</a>
+              را مطالعه کنید
+            </p>
+            <h3>
+              < نوشتن مقاله />
+            </h3>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <p class="source">
+        استفاده از مطالب این سایت بلامانع است
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
