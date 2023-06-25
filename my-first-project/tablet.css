@@ -1,0 +1,86 @@
+.nav-home:nth-child(5) {
+  display: block;
+}
+.nav-home:nth-child(6) {
+  display: block;
+}
+.nav-home:nth-child(7) {
+  display: block;
+}
+.nav-home:nth-child(8) {
+  display: block;
+}
+.site-nav__nav {
+  display: none;
+}
+
+.nav-row-container span {
+  font-size: 0.9em;
+}
+.nav-svg {
+  width: 1.2em;
+  height: 1.2em;
+  margin-bottom: 3px;
+}
+.logo-information {
+  font-family: tahoma;
+  font-size: 2.5vmin;
+  padding: 8px;
+}
+.logo-text {
+  margin-top: 2px;
+  font-family: tahoma;
+  font-size: 3vmin;
+  font-weight: bold;
+  padding: 1px 4px 4px 4px;
+}
+.icon-svg {
+  width: 4em;
+  height: 4em;
+}
+
+.site-nav__toggle {
+  display: none;
+}
+.search-form {
+  display: none;
+}
+.search-bottom {
+  display: inline-block;
+}
+.head-maxwidth {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 75rem;
+}
+
+.discuss-box {
+  flex-direction: row;
+  padding: 2em;
+  overflow: hidden;
+}
+.discuss-box__text {
+  font-size: calc(0.8em + 1vw);
+}
+.discuss-box__icon2 {
+  display: block;
+}
+.main-container {
+  padding: 0;
+}
+.logo-information {
+  display: inline-block;
+}
+.aside-container {
+  padding: 1em 0em;
+}
+.aside-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wiget {
+  width: calc(50% - 2em);
+  flex-grow: 1;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}

@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css-reset/mcleod-reset.css" />
   <link rel="stylesheet" href="review.css" />
-  <link rel="stylesheet" href="mobile.css" media="min-width: 600px">
+  <link rel="stylesheet" href="tablet.css" media="((min-width:600px) and (max-width:979px))">
+  <link rel="stylesheet" href="laptop.css" media="(min-width:980px)">
+
 
 
 
@@ -42,7 +44,11 @@
             <input class="search-form__search-box" id="search_label" type="search" placeholder="مثال: میکروکنترلر" />
             <input class="search-form__submit" type="submit" value="جستجو" />
           </form>
-          <a class="search-bottom" href=""></a>
+          <a class="search-bottom" href="">
+            <svg class="icon-svg-search">
+              <use href="../pic/symbol-defs.svg#icon-search"></use>
+            </svg>
+          </a>
         </div>
 
       </div>
@@ -147,7 +153,9 @@
               </li>
             </ul>
             <button class="site-nav__toggle" id="click-menu">
-              <span></span><span></span><span></span>
+              <svg class="nav-svg">
+                <use href="../pic/symbol-defs.svg#icon-dots-three-vertical"></use>
+              </svg>
             </button>
 
             <ul class="site-nav__nav">
